@@ -1,0 +1,27 @@
+<div *ngFor="let item of favNumArr">
+  <div *ngFor="let blog of blog1">
+    <div *ngIf="blog.id==item">
+      <div class="w3-twothird">
+
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16">{{blog.blogTitle}}</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Created By : {{blog.blogCreator}}   {{"    Category : "}}{{blog.technology}}</b></h5>
+            <h6 class="w3-text-teal">
+
+            </h6>
+            <p>{{blog.blogContent}}</p>
+            <hr>
+
+          </div>
+          <span class="w3-tag w3-teal w3-round" id="bloc2" (click)="makeItFavouriteBlog(blog.id)" *ngIf="loginChecker">{{ifIsFavouriteTitle(blog.id) ? 'Mark as Favourite': 'Marked as Favourite'}}</span>
+          <!--<button >Favourites</button>-->
+          <span class="w3-tag w3-teal w3-round" id="bloc3" (click)="deleteBlog(blog.id)" *ngIf="loginChecker&&currentUserName==blog.blogCreator">Delete</span>
+          <span class="w3-tag w3-teal w3-round" id="bloc1" (click)="onClickUpdate(blog.id)" *ngIf="loginChecker&&currentUserName==blog.blogCreator">
+            Update
+        </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

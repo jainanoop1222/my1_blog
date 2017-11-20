@@ -1,0 +1,143 @@
+{
+  "blogs": [
+    {
+      "blogTitle": "asklkjas",
+      "blogContent": "The sessionStorage property allows you to access a session Storage object for the current origin. sessionStorage is similar to Window.localStorage, the only difference is while data stored in localStorage has no expiration set, data stored in sessionStorage gets cleared when the page session ends. A page session lasts for as long as the browser is open and survives over page reloads and restores. Opening a page in a new tab or window will cause a new session to be initiated, which differs from how session cookies work.",
+      "blogCreator": "apoourv",
+      "technology": "Science",
+      "id": 7
+    },
+    {
+      "blogTitle": "anoop",
+      "blogContent": "The sessionStorage property allows you to access a session Storage object for the current origin. sessionStorage is similar to Window.localStorage, the only difference is while data stored in localStorage has no expiration set, data stored in sessionStorage gets cleared when the page session ends. A page session lasts for as long as the browser is open and survives over page reloads and restores. Opening a page in a new tab or window will cause a new session to be initiated, which differs from how session cookies work.",
+      "blogCreator": "apoourv",
+      "technology": "Sports",
+      "id": 10
+    },
+    {
+      "blogTitle": "mba",
+      "blogContent": "The sessionStorage property allows you to access a session Storage object for the current origin. sessionStorage is similar to Window.localStorage, the only difference is while data stored in localStorage has no expiration set, data stored in sessionStorage gets cleared when the page session ends. A page session lasts for as long as the browser is open and survives over page reloads and restores. Opening a page in a new tab or window will cause a new session to be initiated, which differs from how session cookies work.",
+      "blogCreator": "mba",
+      "technology": "Coding",
+      "id": 11
+    },
+    {
+      "blogTitle": "mba",
+      "blogContent": "The sessionStorage property allows you to access a session Storage object for the current origin. sessionStorage is similar to Window.localStorage, the only difference is while data stored in localStorage has no expiration set, data stored in sessionStorage gets cleared when the page session ends. A page session lasts for as long as the browser is open and survives over page reloads and restores. Opening a page in a new tab or window will cause a new session to be initiated, which differs from how session cookies work.",
+      "blogCreator": "akshay",
+      "technology": "Science",
+      "id": 12
+    },
+    {
+      "blogTitle": "mba",
+      "blogContent": "The sessionStorage property allows you to access a session Storage object for the current origin. sessionStorage is similar to Window.localStorage, the only difference is while data stored in localStorage has no expiration set, data stored in sessionStorage gets cleared when the page session ends. A page session lasts for as long as the browser is open and survives over page reloads and restores. Opening a page in a new tab or window will cause a new session to be initiated, which differs from how session cookies work.",
+      "blogCreator": "akshay",
+      "technology": "Science",
+      "id": 13
+    },
+    {
+      "blogTitle": "bba",
+      "blogContent": "The sessionStorage property allows you to access a session Storage object for the current origin. sessionStorage is similar to Window.localStorage, the only difference is while data stored in localStorage has no expiration set, data stored in sessionStorage gets cleared when the page session ends. A page session lasts for as long as the browser is open and survives over page reloads and restores. Opening a page in a new tab or window will cause a new session to be initiated, which differs from how session cookies work.",
+      "blogCreator": "akshay",
+      "technology": "Coding",
+      "id": 14
+    },
+    {
+      "blogTitle": "nba",
+      "blogContent": "The sessionStorage property allows you to access a session Storage object for the current origin. sessionStorage is similar to Window.localStorage, the only difference is while data stored in localStorage has no expiration set, data stored in sessionStorage gets cleared when the page session ends. A page session lasts for as long as the browser is open and survives over page reloads and restores. Opening a page in a new tab or window will cause a new session to be initiated, which differs from how session cookies work.",
+      "blogCreator": "akshay",
+      "technology": "Dance",
+      "id": 15
+    },
+    {
+      "blogTitle": "nba",
+      "blogContent": "The sessionStorage property allows you to access a session Storage object for the current origin. sessionStorage is similar to Window.localStorage, the only difference is while data stored in localStorage has no expiration set, data stored in sessionStorage gets cleared when the page session ends. A page session lasts for as long as the browser is open and survives over page reloads and restores. Opening a page in a new tab or window will cause a new session to be initiated, which differs from how session cookies work.",
+      "blogCreator": "anoop",
+      "technology": "Sports",
+      "id": 16
+    },
+    {
+      "blogTitle": "aaaaaaaa",
+      "blogContent": "The sessionStorage property allows you to access a session Storage object for the current origin. sessionStorage is similar to Window.localStorage, the only difference is while data stored in localStorage has no expiration set, data stored in sessionStorage gets cleared when the page session ends. A page session lasts for as long as the browser is open and survives over page reloads and restores. Opening a page in a new tab or window will cause a new session to be initiated, which differs from how session cookies work.",
+      "blogCreator": "anoop",
+      "technology": "Coding",
+      "id": 17
+    },
+    {
+      "blogTitle": "aslkj",
+      "blogContent": "The sessionStorage property allows you to access a session Storage object for the current origin. sessionStorage is similar to Window.localStorage, the only difference is while data stored in localStorage has no expiration set, data stored in sessionStorage gets cleared when the page session ends. A page session lasts for as long as the browser is open and survives over page reloads and restores. Opening a page in a new tab or window will cause a new session to be initiated, which differs from how session cookies work.",
+      "blogCreator": "anoop",
+      "technology": "Coding",
+      "id": 18
+    },
+    {
+      "blogTitle": "vika",
+      "blogContent": "The sessionStorage property allows you to access a session Storage object for the current origin. sessionStorage is similar to Window.localStorage, the only difference is while data stored in localStorage has no expiration set, data stored in sessionStorage gets cleared when the page session ends. A page session lasts for as long as the browser is open and survives over page reloads and restores. Opening a page in a new tab or window will cause a new session to be initiated, which differs from how session cookies work.",
+      "blogCreator": "123456",
+      "technology": "Sports",
+      "id": 19
+    },
+    {
+      "blogTitle": "eminem",
+      "blogContent": "eminem",
+      "blogCreator": "123456",
+      "technology": "Sports",
+      "id": 20
+    },
+    {
+      "blogTitle": "abc",
+      "blogContent": "w3-button w3-tealw3-button w3-tealw3-button w3-tealw3-button w3-tealw3-button w3-tealw3-button w3-tealw3-button w3-tealw3-button w3-tealw3-button w3-tealw3-button w3-tealw3-button w3-tealw3-button w3-tealw3-button w3-tealw3-button w3-tealw3-button w3-tealw3-button w3-tealw3-button w3-tealw3-button w3-tealw3-button w3-teal",
+      "blogCreator": "anoop",
+      "technology": "Dance",
+      "id": 21
+    },
+    {
+      "blogTitle": "kjjksdslkjdsklkj",
+      "blogContent": "sdjsdlkjsdlkkj",
+      "blogCreator": "anoop",
+      "technology": "Dance",
+      "id": 22
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username1": "123456",
+      "password1": "123456",
+      "favourites": [
+        7
+      ],
+      "createdBy": []
+    },
+    {
+      "id": 2,
+      "username1": "apoourv",
+      "password1": "12345",
+      "favourites": [],
+      "createdBy": []
+    },
+    {
+      "username1": "akshay",
+      "password1": "12345",
+      "favourites": [
+        15,
+        null
+      ],
+      "createdBy": [],
+      "id": 3
+    },
+    {
+      "username1": "anoop",
+      "password1": "12345",
+      "favourites": [
+        4,
+        3,
+        14,
+        9,
+        16
+      ],
+      "createdBy": [],
+      "id": 4
+    }
+  ]
+}

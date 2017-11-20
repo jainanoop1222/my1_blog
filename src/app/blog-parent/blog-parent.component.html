@@ -1,0 +1,33 @@
+<!--<div class="comp3">-->
+  <!--<div class="comp" [routerLink]="['/home']">Home</div>-->
+  <!--<div class="comp" *ngIf="loginChecker" [routerLink]="['/createblog']">Create Blog</div>-->
+  <!--<div class="comp" [routerLink]="['/allblogs']">All Blogs</div>-->
+  <!--<div class="comp" *ngIf="loginChecker" [routerLink]="['/favourites']">Favorites</div>-->
+  <!--<div class="comp" ><input></div>-->
+  <!--<div class="comp2" *ngIf="!loginChecker" [routerLink]="['/login']" >Login</div>-->
+  <!--<div class="comp2" *ngIf="loginChecker" [routerLink]="['/login']" (click)="fall()" >Logout</div>-->
+<!--</div>-->
+<div class="w3-bar w3-dark-grey w3-border w3-padding topi" >
+  <div class="w3-bar-item w3-button w3-mobile"  [routerLink]="['/home']">Home</div>
+  <div class="w3-bar-item w3-button w3-mobile"  [routerLink]="['/cate']">Categories</div>
+  <div class="w3-bar-item w3-button w3-mobile" *ngIf="loginChecker" [routerLink]="['/createblog']">Create Blog</div>
+  <div class="w3-bar-item w3-button w3-mobile" *ngIf="loginChecker" [routerLink]="['/myblogs']">My Blogs</div>
+  <div class="w3-bar-item w3-button w3-mobile" *ngIf="loginChecker" [routerLink]="['/favourites']">Favorites</div>
+  <!--<div  ><input class="w3-bar-item w3-input w3-white w3-mobile" [(ngModel)]="inputNavigator" placeholder="Search.."></div>-->
+<!--{{inputNavigator}}-->
+  <div class="w3-bar-item w3-button w3-mobile" id="aaa" *ngIf="!loginChecker" [routerLink]="['/login']" >Login</div>
+  <div class="w3-bar-item w3-button w3-mobile" id="aaa1" *ngIf="loginChecker" [routerLink]="['/login']" (click)="fall()" >Logout</div>
+</div>
+<!--<div class="w3-bar w3-light-grey w3-border w3-padding">-->
+  <!--<a href="#" class="w3-bar-item w3-button w3-mobile" [routerLink]="['/home']">Home</a>-->
+  <!--<a href="#" class="w3-bar-item w3-button w3-mobile">Link 1</a>-->
+  <!--<a href="#" class="w3-bar-item w3-button w3-mobile">Link 2</a>-->
+  <!--<input type="text" class="w3-bar-item w3-input w3-white w3-mobile" placeholder="Search..">-->
+  <!--<button class="w3-bar-item w3-button w3-green w3-mobile">Go</button>-->
+  <!--<a href="#" class="w3-bar-item w3-button w3-mobile" id="aaa">Home</a>-->
+<!--</div>-->
+
+<router-outlet></router-outlet>
+
+
+

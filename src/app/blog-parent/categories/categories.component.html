@@ -1,0 +1,116 @@
+<!--<div class="w3-bar w3-black">-->
+  <!--<button class="w3-bar-item w3-button" onclick="onClick(1)" [prop]="str">London</button>-->
+  <!--<button class="w3-bar-item w3-button" onclick="onClick(2)">Paris</button>-->
+  <!--<button class="w3-bar-item w3-button" onclick="onClick(3)">Tokyo</button>-->
+<!--</div>-->
+<ul>
+  <li><a (click)="onClick(1)" >Sports</a></li>
+  <li><a (click)="onClick(2)">Science</a></li>
+  <li><a (click)="onClick(3)">Coding</a></li>
+  <li><a (click)="onClick(4)">Dance</a></li>
+</ul>
+<!--<div *ngFor="let blog of allBlogs">-->
+  <!--&lt;!&ndash;<div *ngIf="blog.technology==strin">&ndash;&gt;-->
+    <!--{{blog.blogCreator}}-->
+
+  <!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--</div>-->
+<!--<div class="w3-bar w3-black">-->
+  <!--<p class="w3-bar-item w3-button" [style.display]="none" *ngIf="("Sports")==strin" >-->
+    <!--<div *ngFor="let item of favNumArr">-->
+ <!--<p>     <div *ngFor="let blog of allBlogs">-->
+        <!--<div *ngIf="blog.technology==strin">-->
+          <!--<div class="w3-twothird">-->
+
+            <!--<div class="w3-container w3-card w3-white w3-margin-bottom">-->
+              <!--<h2 class="w3-text-grey w3-padding-16">{{blog.blogTitle}}</h2>-->
+              <!--<div class="w3-container">-->
+                <!--<h5 class="w3-opacity"><b>Created By : {{blog.blogCreator}}   {{"    Category : "}}{{blog.technology}}</b></h5>-->
+                <!--<h6 class="w3-text-teal">-->
+
+                <!--</h6>-->
+  <!--<p>{{blog.blogContent}}</p>-->
+  <!--<hr>-->
+
+<!--</div>-->
+<!--&lt;!&ndash;<span class="w3-tag w3-teal w3-round" id="bloc2" (click)="makeItFavouriteBlog(blog.id)" *ngIf="loginChecker">{{ifIsFavouriteTitle(blog.id) ? 'Mark as Favourite': 'Marked as Favourite'}}</span>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;<button >Favourites</button>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;<span class="w3-tag w3-teal w3-round" id="bloc3" (click)="deleteBlog(blog.id)" *ngIf="loginChecker&&currentUserName==blog.blogCreator">Delete</span>&ndash;&gt;-->
+<!--&lt;!&ndash;<span class="w3-tag w3-teal w3-round" id="bloc1" (click)="onClickUpdate(blog.id)" *ngIf="loginChecker&&currentUserName==blog.blogCreator">&ndash;&gt;-->
+            <!--&lt;!&ndash;Update&ndash;&gt;-->
+        <!--&lt;!&ndash;</span>&ndash;&gt;-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+  <!--</p>-->
+
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+  <!--<div  [style.display]="none" *ngIf="1==str">-->
+ <div *ngFor="let blog of allBlogs">
+    <div *ngIf="blog.technology==strin">
+      <div class="w3-twothird">
+
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16">{{blog.blogTitle}}</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Created By : {{blog.blogCreator}}   {{"    Category : "}}{{blog.technology}}</b></h5>
+            <h6 class="w3-text-teal">
+
+            </h6>
+            <p>{{blog.blogContent}}</p>
+            <hr>
+
+          </div>
+          <!--<span class="w3-tag w3-teal w3-round" id="bloc2" (click)="makeItFavouriteBlog(blog.id)" *ngIf="loginChecker">{{ifIsFavouriteTitle(blog.id) ? 'Mark as Favourite': 'Marked as Favourite'}}</span>-->
+          <!--&lt;!&ndash;<button >Favourites</button>&ndash;&gt;-->
+          <!--<span class="w3-tag w3-teal w3-round" id="bloc3" (click)="deleteBlog(blog.id)" *ngIf="loginChecker&&currentUserName==blog.blogCreator">Delete</span>-->
+          <!--<span class="w3-tag w3-teal w3-round" id="bloc1" (click)="onClickUpdate(blog.id)" *ngIf="loginChecker&&currentUserName==blog.blogCreator">-->
+            <!--Update-->
+        <!--</span>-->
+        </div>
+      </div>
+      <!--{{strin}}-->
+      <!--{{blog.technology}}-->
+      <!--{{blog.blogTitle}}-->
+    </div>
+  </div>
+</div>
+
+  <!--<div class="w3-bar-item w3-button" [style.display]="none" *ngIf="2==str">-->
+    <!--<div *ngFor="let blog of allBlogs">-->
+      <!--<div *ngIf="blog.technology==strin">-->
+
+        <!--{{strin}}-->
+        <!--{{blog.technology}}-->
+        <!--{{blog.blogTitle}}-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+  <!--<div class="w3-bar-item w3-button" [style.display]="none" *ngIf="3==str">-->
+    <!--<div *ngFor="let blog of allBlogs">-->
+      <!--<div *ngIf="blog.technology==strin">-->
+
+        <!--{{strin}}-->
+        <!--{{blog.technology}}-->
+        <!--{{blog.blogTitle}}-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+  <!--<div class="w3-bar-item w3-button" [style.display]="none" *ngIf="4==str">-->
+    <!--<div *ngFor="let blog of allBlogs">-->
+      <!--<div *ngIf="blog.technology==strin">-->
+
+        <!--{{strin}}-->
+        <!--{{blog.technology}}-->
+        <!--{{blog.blogTitle}}-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+  <!--<p class="w3-bar-item w3-button" [style.display]="none" *ngIf="2==str">Pariaaas</p>-->
+  <!--<p class="w3-bar-item w3-button" [style.display]="none" *ngIf="3==str">Tokyo</p>-->
+  <!--<p class="w3-bar-item w3-button" [style.display]="none" *ngIf="4==str" >London</p>-->
+<!--</div>-->
+

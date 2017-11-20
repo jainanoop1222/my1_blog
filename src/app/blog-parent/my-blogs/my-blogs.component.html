@@ -1,0 +1,27 @@
+<div class="w3-twothird" id="myb" *ngFor="let blog of allBlogs">
+
+  <div class="w3-container w3-card w3-dark-grey w3-margin-bottom" *ngIf="blog.blogCreator==currentUser">
+    <h2 class="w3-text-blue w3-padding-16">{{blog.blogTitle}}</h2>
+    <div class="w3-container">
+      <h5 class="w3-opacity w3-text-blue"><b>{{"Created By : "}}<u>{{blog.blogCreator}}{{"  "}}  </u>   {{"    Category : "}}<u>{{blog.technology}}</u></b></h5>
+
+      <h6 class="w3-text-teal">
+      </h6>
+      <div class="w3-leftbar w3-theme-border" style="list-style:none; ">
+        <p style="margin-left: 10px">{{blog.blogContent}}</p>
+      </div>
+      <!--<hr>-->
+
+    </div>
+
+
+    <span class="w3-tag w3-teal w3-round" id="bloc2" (click)="makeItFavouriteBlog(blog.id)" *ngIf="loginChecker">{{ifIsFavouriteTitle(blog.id) ? 'Marked as Favourite': 'Mark as Favourite'}}</span>
+    <!--<button >Favourites</button>-->
+    <span class="w3-tag w3-teal w3-round" id="bloc3" (click)="deleteBlog(blog.id)" *ngIf="loginChecker&&currentUserName==blog.blogCreator">Delete</span>
+    <span class="w3-tag w3-teal w3-round" id="bloc1" (click)="onClickUpdate(blog.id)" *ngIf="loginChecker&&currentUserName==blog.blogCreator">
+          <!--<button >-->
+            Update
+      <!--</button>-->
+        </span><!--<button (click)="deleteBlog(blog.id)" *ngIf="loginChecker">Delete</button>-->
+  </div>
+</div>

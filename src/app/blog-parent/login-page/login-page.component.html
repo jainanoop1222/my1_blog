@@ -1,0 +1,43 @@
+<!--<p>-->
+  <!--&lt;!&ndash;login-page works!&ndash;&gt;-->
+<!--</p>-->
+<div class="w3-container rona1">
+
+  <div><h3>Already have account</h3></div>
+  <p>
+    <label>First Name</label>
+    <input class="w3-input rona" [(ngModel)]="blogContent" type="text"></p>
+  <p>
+    <label>Password</label>
+    <input class="w3-input rona" [(ngModel)]="blogCreator" type="password"></p>
+  <p>
+    <button class="w3-button w3-teal" (click)="login(blogContent ,blogCreator)">Submit</button></p></div>
+<div class="w3-container">
+
+  <div><h3>Create an account</h3></div>
+  <p>
+    <label>First Name</label>
+    <input class="w3-input rona" [(ngModel)]="blogContent2" type="text"></p>
+  <p>
+    <label>Password</label>
+    <input class="w3-input rona" [(ngModel)]="blogCreator2" type="password"></p>
+  <p>
+    <button class="w3-button w3-teal" (click)="registering(blogContent2 ,blogCreator2)">Submit</button></p></div>
+    <!--<label>Email</label>-->
+    <!--<input class="w3-input" type="text">
+
+
+
+
+<!--<div>Name</div>-->
+<!--<div><input type="text" ></div>-->
+<!--<div>Password</div>-->
+<!--<div><input type="password" ></div>-->
+<!--<div></div>-->
+<!--<button *ngIf="logger"></button>-->
+<!--<div>New User</div>-->
+<!--<div>Name</div>-->
+<!--<div><input type="text" [(ngModel)]="blogContent2"></div>-->
+<!--<div>Password</div>-->
+<!--<div><input type="password" [(ngModel)]="blogCreator2"></div>-->
+<!--<div><button (click)="registering(blogContent2 ,blogCreator2)">Submit</button></div>-->

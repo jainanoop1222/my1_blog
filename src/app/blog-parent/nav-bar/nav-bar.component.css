@@ -1,0 +1,67 @@
+/*.comp{*/
+  /*display: inline;*/
+  /*float: left;*/
+  /*border-right: 2px solid aliceblue;*/
+  /*padding: 15px ;*/
+  /*background-color: grey;*/
+  /*cursor: pointer;*/
+  /*!*border: 2px solid blue;*!*/
+/*}*/
+/*.comp2{*/
+  /*!*margin: 5px;*!*/
+  /*!*margin-top: 15px;*!*/
+  /*!*overflow: scroll;*!*/
+  /*display: inline;*/
+  /*float: right;*/
+  /*border-left: 2px solid aliceblue;*/
+  /*padding: 15px ;*/
+  /*background-color: grey;*/
+  /*cursor: pointer;*/
+  /*!*border: 2px solid blue;*!*/
+/*}*/
+/*.comp3{*/
+  /*position: relative;*/
+  /*float: left;*/
+  /*width: 100%;*/
+  /*background-color: #333;*/
+/*}*/
+/*#blockl{*/
+  /*background-color: whitesmoke;*/
+  /*width: 700px;*/
+  /*border: 1px white;*/
+  /*padding: 1px;*/
+  /*margin: 1px;*/
+/*}*/
+
+/*#title {*/
+  /*height: 20px;*/
+  /*padding: 1em;*/
+  /*color: white;*/
+  /*background-color: black;*/
+  /*clear: left;*/
+  /*text-align: left;*/
+/*}*/
+#bloc1,#bloc2,#bloc3
+{
+  float: left;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+/*#imag{*/
+  /*float: left;*/
+  /*max-width: 160px;*/
+  /*margin: 0;*/
+  /*padding: 1em;*/
+  /*border: 1px black;*/
+/*}*/
+
+/*article {*/
+  /*margin-left: 170px;*/
+  /*!*border-left: 1px solid gray;*!*/
+  /*padding: 1em;*/
+
+  /*overflow: hidden;*/
+/*}*/
+.sam{
+  display: inline-block;
+}

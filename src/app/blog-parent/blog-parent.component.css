@@ -1,0 +1,43 @@
+/*!*.fic{*!*/
+  /*!*position: fixed;*!*/
+/*!*}*!*/
+/*.comp{*/
+  /*display: inline;*/
+  /*float: left;*/
+  /*border-right: 2px solid aliceblue;*/
+  /*padding: 15px ;*/
+  /*background-color: grey;*/
+  /*cursor: pointer;*/
+  /*!*border: 2px solid blue;*!*/
+/*}*/
+/*.comp2{*/
+  /*!*margin: 5px;*!*/
+  /*!*margin-top: 15px;*!*/
+  /*!*overflow: scroll;*!*/
+  /*display: inline;*/
+  /*float: right;*/
+  /*border-left: 2px solid aliceblue;*/
+  /*padding: 15px ;*/
+  /*background-color: grey;*/
+  /*cursor: pointer;*/
+  /*!*border: 2px solid blue;*!*/
+/*}*/
+/*.comp3{*/
+  /*position: relative;*/
+  /*float: left;*/
+  /*width: 100%;*/
+  /*background-color: #333;*/
+/*}*/
+/*.hidden{*/
+  /*visibility: hidden;*/
+/*}*/
+#aaa,#aaa1
+{
+  float:right;
+}
+#ma{
+  color: #4d90fe;
+}
+/*.topi{*/
+  /*position: fixed;*/
+/*}*/

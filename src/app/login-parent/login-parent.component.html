@@ -1,0 +1,11 @@
+<div class="comp3">
+  <div class="comp" [routerLink]="['/home']">Home</div>
+  <div class="comp" [routerLink]="['/createblog']">Create Blog</div>
+  <div class="comp" [routerLink]="['/myblogs']">All Blogs</div>
+  <div class="comp" [routerLink]="['/favourite']">Favorites</div>
+  <!--<app-login-page class="hidden" (notify)="onLoginClicked($event)"></app-login-page>-->
+  <div class="comp2" [routerLink]="['/login']" >SignOut</div>
+</div>
+
+
+<router-outlet></router-outlet>

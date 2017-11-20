@@ -1,0 +1,77 @@
+<!--<p>-->
+  <!--&lt;!&ndash;all-blogs works!&ndash;&gt;-->
+<!--</p><input type="text" [(ngModel)]="listFilter">-->
+<div class="rona1" >Search Here...<input class="w3-bar-item w3-input w3-light-grey w3-mobile rona"
+                                         [(ngModel)]="listFilter" placeholder="Search.."></div>
+<div *ngFor="let blog of filteredProducts" id="myb1">
+
+  <div class="w3-twothird" id="myb">
+
+    <div class="w3-container w3-card w3-dark-grey w3-margin-bottom">
+      <h2 class="w3-text-blue w3-padding-16">{{blog.blogTitle}}</h2>
+      <div class="w3-container">
+        <h5 class="w3-opacity w3-text-dark-blue"><b><span>{{"Created By : "}}<u>{{blog.blogCreator}}{{"  "}}  </u>
+        </span> <span class="spa">   {{"    Category : "}}<u>{{blog.technology}}</u></span></b></h5>
+
+        <h6 class="w3-text-teal">
+        </h6>
+        <div class="w3-leftbar w3-theme-border" style="list-style:none; ">
+        <p style="margin-left: 10px">{{blog.blogContent}}</p>
+        </div>
+          <!--<hr>-->
+
+      </div>
+
+
+      <span class="w3-tag w3-teal w3-round" id="bloc2" (click)="makeItFavouriteBlog(blog.id)"
+            *ngIf="loginChecker">{{ifIsFavouriteTitle(blog.id) ? 'Marked as Favourite': 'Mark as Favourite'}}</span>
+      <!--<button >Favourites</button>-->
+      <span class="w3-tag w3-teal w3-round" id="bloc3" (click)="deleteBlog(blog.id)"
+            *ngIf="loginChecker&&currentUserName==blog.blogCreator">Delete</span>
+      <span class="w3-tag w3-teal w3-round" id="bloc1" (click)="onClickUpdate(blog.id)"
+            *ngIf="loginChecker&&currentUserName==blog.blogCreator">
+          <!--<button >-->
+            Update
+        <!--</button>-->
+        </span><!--<button (click)="deleteBlog(blog.id)" *ngIf="loginChecker">Delete</button>-->
+    </div>
+  </div>
+
+  <!--<div id="blockl" class="sam">-->
+
+    <!--<h3 id="title">{{blog.blogTitle}}</h3>-->
+    <!--<div id="imag">-->
+      <!--<img [src]="blog.imageUrl"-->
+           <!--[style.width.px]=100-->
+           <!--[style.margin.px]=100  >-->
+      <!--<button (click)="onClickImage(blog.id)" *ngIf="loginChecker">Update</button>-->
+    <!--</div>-->
+    <!--<article>-->
+      <!--<div>{{blog.blogCreator}}</div>-->
+      <!--<div>{{blog.blogContent}}</div>-->
+    <!--</article>-->
+    <!--<div *ngIf="loginChecker">-->
+      <!--&lt;!&ndash;<div ></div>&ndash;&gt;-->
+      <!--&lt;!&ndash;<button (click )="checkBox(blog.id)">Favourites</button>&ndash;&gt;-->
+    <!--&lt;!&ndash;<input  type="checkbox" name="vehicle" value="Bike" (change)="button1click(blog.id)">Favourites<br>&ndash;&gt;-->
+    <!--</div>-->
+  <!--</div>-->
+
+
+
+  <div *ngIf="updateFlag&&blog.id==blogId" class="sam">
+    <h5 class="w3-opacity"><b>Enter Title:</b></h5>
+    <div><input type="text" [(ngModel)]="blog.blogTitle" class="w3-panel w3-round "></div>
+    <h5 class="w3-opacity"><b>Enter Technology:</b></h5>
+      <div><input type="text" [(ngModel)]="blog.blogCreator" class="w3-panel w3-round "></div>
+    <h5 class="w3-opacity"><b>Enter Content:</b></h5>
+      <div><textarea rows="4" cols="50" [(ngModel)]="blog.blogContent" class="w3-panel w3-round " ></textarea></div>
+      <!--<div class="create">Enter url: </div>-->
+      <!--<div><input type="text" [(ngModel)]="blog.imageUrl" class="w3-panel w3-round "></div>-->
+      <button (click)="updateBlog(blog.blogTitle,blog.technology,blog.blogContent,blog.id)">Update</button>
+  </div>
+
+
+  <!--<hr>-->
+</div>
+
